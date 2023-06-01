@@ -1,0 +1,95 @@
+.h-p-a-c{
+     font-size: 16px;
+     color: #707070;
+   
+}
+.slider-background{
+     background: #FEEAE9;
+     height: 455px;
+}
+
+.slider-text{
+     margin-left: 45px;
+}
+.slider-text h1{
+     font-size: 56px;
+     color: #1F1F1F;
+}
+.slider-text h2{
+     font-size: 41px;
+     color: #FF136F;
+}
+.slider-text button{
+     background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+     border-radius: 6px;
+     width: 168px;
+height: 52px;
+margin-top: 5px;
+}
+.slider-headphone{
+    
+     margin-left: 10%;
+}
+.slider-tv{
+    
+     margin-left: 10%;
+}
+.slider-xbox{
+    
+     margin-left: 10%;
+}
+.watch{
+     background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+     height: 120px;
+     width: 359px;
+
+
+}
+.watch h1{
+     color: #FFFFFF;
+     font-size: 36px;
+}
+.bag{
+     background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+
+     height: 120px;
+     width: 358px;
+   
+}
+.bag h1{
+     color: #FFFFFF;
+     font-size: 36px;
+}
+.shoes{
+     background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+     height: 120px;
+     width: 358px;
+}
+.shoes h1{
+     color: #FFFFFF;
+     font-size: 36px;
+}
+.main2{
+width: 1440px;
+height: 1486px;
+background: #F4F4F4;
+
+}
+.ftr{
+    
+     height: 455px;
+     width: 1212px;
+     background: #FFF2F1;
+
+
+}
+.footer-all{
+     padding-top: 160px;
+}
+.eml{
+     height: 73px;
+     width: 683px;
+     margin-left: 22%;
+
+
+}
