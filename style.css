@@ -46,9 +46,11 @@ margin-top: 5px;
 
 }
 .watch h1{
-     color: #FFFFFF;
+     color: #000000;
      font-size: 36px;
+    
 }
+
 .bag{
      background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
 
@@ -57,7 +59,7 @@ margin-top: 5px;
    
 }
 .bag h1{
-     color: #FFFFFF;
+     color: #000000;
      font-size: 36px;
 }
 .shoes{
@@ -66,7 +68,7 @@ margin-top: 5px;
      width: 358px;
 }
 .shoes h1{
-     color: #FFFFFF;
+     color: #030303;
      font-size: 36px;
 }
 .main2{
@@ -74,4 +76,35 @@ width: 1440px;
 height: 1486px;
 background: #F4F4F4;
 
+
+}
+#footer-bg-colour{
+     background: #FFF2F1;
+     height: 455px;
+     
+
+
+}
+.floating-footer{
+     width: 500px;
+     height: 73px;
+
+
+}
+.footer-btn{
+     width: 100px;
+     height: 56px; 
+     background: linear-gradient(180deg, 
+     #FF589B 0%, #FF136F 100%);
+     text-align: center;
+     border-radius: 5px;
+    
+     
+}
+.footer-btn a{
+     text-decoration: none;
+     color: #FFFFFF;
+     
+    
+     
 }

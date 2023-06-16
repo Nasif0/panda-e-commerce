@@ -106,22 +106,22 @@
   </div>
   <div class="container overflow-hidden text-center my-5">
     <div class="row gy-5">
-      <div class="col-lg-4 col-md-6 col-sm-12 ">
-        <div class="p-3 watch d-flex justify-content-center align-items-center rounded"> 
-          <h1>Watch</h1>
+      <div class="col-lg-4 col-md-6 col-sm-12 " >
+        <div class="p-3 watch d-flex justify-content-center align-items-center rounded" > 
+          <h1 id="demo-watch" onmouseenter="watchFunction()">Watch</h1>
           <img class="w-25" src="images/categories/watch.png" alt="">
         </div>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12">
       <div class="p-3 bag d-flex justify-content-center align-items-center rounded">
-          <h1>Bag</h1>
+          <h1 id="demo-bag" onmouseenter="bagFunction()">Bag</h1>
           <img class="w-25" src="images/categories/bag.png" alt="">
 
         </div>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12">
     <div class="p-3 shoes d-flex justify-content-center align-items-center rounded">
-          <h1>Shoes</h1>
+          <h1 id="demo-shoes" onmouseenter="shoesFunction()">Shoes</h1>
           <img class="w-25" src="images/categories/shoes.png" alt="">
         </div>
       </div>
@@ -138,13 +138,13 @@
     <div class="row gy-5">
       <div class="col-lg-4 col-md-6 col-sm-12">
         <div class="p-3">
-          <div class="card border border-0 shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;">
+          <div class="card border border-0 shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem;" >
             <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
               <p class="card-text"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
-              <h5>$1289</h5>
-              <button type="button" class="btn btn-outline-info">Buy Now</button>
+              <h5 id="shoes-price1"></h5>
+              <button onclick="shoes1Function()" type="button" class="btn btn-outline-info">Buy Now</button>
             </div>
           </div>
         </div>
@@ -156,8 +156,8 @@
             <div class="card-body">
               <h5 class="card-title">Reebok Pump</h5>
 <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
-<h5>$799</h5>
-<button type="button" class="btn btn-outline-info">Buy Now</button>
+<h5 id="shoes-price2"></h5>
+<button onclick="shoes2Function()" type="button" class="btn btn-outline-info">Buy Now</button>
             </div>
           </div>
         </div>
@@ -168,8 +168,8 @@
           <div class="card-body">
             <h5 class="card-title">Reebok All Terrain</h5>
             <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
-            <h5>$699</h5>
-            <button type="button" class="btn btn-outline-info">Buy Now</button>
+            <h5 id="shoes-price3"></h5>
+            <button onclick="shoes3Function()" type="button" class="btn btn-outline-info">Buy Now</button>
           </div>
         </div></div>
       </div>
@@ -227,6 +227,34 @@
 
 </section>
 
+<!-- footer -->
+<section class="container py-5 mt-5">
+<footer id="footer-bg-colour">
+  <div id="footer-text " class="text-center py-5" >
+    <h4 class="fw-bolder  fs-2">LET'S STAY IN TOUCH</h4>
+  <p class="fs-6">Get updates on sales specials and more</p>
+  </div>
+
+
+  <div class="d-flex justify-content-center ">
+    <div class="form-floating mb-3 floating-footer text-center">
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <label for="floatingInput">Email address </label>
+      
+    </div>
+    <div class="footer-btn ">
+      <a class="" href="">Send</a>
+    </div>
+  </div>
+  
+
+</footer>
+
+</section>
+
+
+
+
 
 
   
@@ -237,6 +265,7 @@
     
     
     <!----------java script  ------------------>
+    <script src="javascript/footer.js"></script>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
 </html>
